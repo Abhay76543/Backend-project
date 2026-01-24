@@ -1,16 +1,26 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "a backend project",
-  "keywords": [
-    "backend",
-    "javascript"
-  ],
-  "license": "ISC",
-  "author": "Abhay Kumar",
-  "type": "module",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhay76543/Backend-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Abhay76543/Backend-project/issues"
+  },
+  "homepage": "https://github.com/Abhay76543/Backend-project#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1"
   }
 }
